@@ -1,0 +1,3141 @@
+fileFormatVersion: 2
+guid: da35eea2f674c5940bf3a81cfd7e2ea4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272b110cae0c6042a4222c3ab64b01b
+      internalID: 601959897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7839c2c26009f6a4184167735ad47c9b
+      internalID: 798606589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fce01c4e1119c4fa137f2d32455d73
+      internalID: 540935150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4db7f94901208f42bbb1cf19669789c
+      internalID: 118914340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c9ba3969ba46f498fa9f5b79500ca5
+      internalID: -414176392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0daac062f2e7b42bb45b9556a86406
+      internalID: 1593785457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25262f6db7984e47af2a60bb4866ef2
+      internalID: -374921690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239e140444cbe004b952dc4c5fa32a85
+      internalID: -549653124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 272
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656f7b6352c3f9c4e972b1c7d0696547
+      internalID: -386791648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfc0d82d46ee5140b3b5b36dc9ce4cb
+      internalID: 309669955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e4180decdcb7e44a7e95c4c2d74e86
+      internalID: 505259833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_11
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3316831463196634c810784c78408cdd
+      internalID: 878925354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f919a60dd255a4d84499bc0ce6a2e0
+      internalID: 1247818875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa85142fb4292564eb57847053c7e5bd
+      internalID: 1452325722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ccd5f6ee3933b4598d705242e042b7
+      internalID: -1746496863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5af9533d122b847a2c0c0d1a9e1633
+      internalID: -683358014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c92fbf5c25ab84297494adc88fe17e
+      internalID: 1972319323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 273
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8417eed7e8724940bf953693ed15bdb
+      internalID: -1557797058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 272
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3ed83909176b24692c7093741856dd
+      internalID: 1977221062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d039a40e992c9c4dbf852491176d4d5
+      internalID: 445924045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb8bc8e0d6f8b34eb19f4a0b11fac67
+      internalID: -1746210579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_21
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e59ec46ec817c4fb403d81fc97cfdb
+      internalID: -1752673186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 241
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9af6a9c2139124ea30886c0fecdf55
+      internalID: -226154005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 241
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ba2fed52ce94544a7098b08ebd410b
+      internalID: 980674228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 241
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f7d6d9d0d0fbb459438c207fdefcbf
+      internalID: 1187525065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1373a54789b436b44be895c2b69d5901
+      internalID: -1494718726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_26
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a750266af8c465243868fda0bcab2e76
+      internalID: 608909593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4d9667b95331f41b101c523ed9a4db
+      internalID: 196711584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68126bce555d95438b102e02362d44a
+      internalID: 1203583098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3321e9aa7615e80468f84e78e0e04214
+      internalID: -1652126800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_30
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 241
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168375192116fd24d8b53dc05aee648f
+      internalID: 397377987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 241
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9ffc196124ff64787e03fbe6443f05
+      internalID: 96616494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_32
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 241
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c4ca6d0cd917c439f9f5bd8bfa35b0
+      internalID: -278566143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30a8a0f7eef35b40a9c247ff33cef0a
+      internalID: -668428606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 240
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72016b7680d67f645b5fff94ec382447
+      internalID: -1420377164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7ad0571f46fc64cb925f9c80cd1c6f
+      internalID: -1156960000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab84c7a32b6284e8b0f2b81830de7d
+      internalID: -986266186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_37
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 208
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66ded7dc93f00642a0b18b6ba182dd0
+      internalID: 745486454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 208
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c742989ee1d52748a43c2e28c489fbe
+      internalID: -502280992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e662fcdb91bcc54785f08c0de75f221
+      internalID: -1629095140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_40
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894d4ddb6d9e384ea21bfc002453328
+      internalID: -1592133383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_41
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 208
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bdc9b8b105ed24b83c10e5fb67cdd4
+      internalID: 1567538182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 208
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99923349f98155488c2e35701920ffd
+      internalID: -172358024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 208
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1692a19ad3979a0409c41a63b764b5da
+      internalID: 65400571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 208
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5511a14cf166d4da3851ab6624632c
+      internalID: 938777066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_45
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558997baa89ba14c8fc23cf143a21e6
+      internalID: -814955294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ab4e9593a23149825522954845d1d
+      internalID: 1170269976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b375708bef6f8448be98a9041a4bf02
+      internalID: -1014982602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_48
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7ffb6573e88e44b0ef66f42d66498
+      internalID: -937606419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 208
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb69c41b32d1f75458374cf15d90bdb1
+      internalID: 1391647680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_50
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 208
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2b3d278224133409b422fa6a73b093
+      internalID: -485780394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_51
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 208
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3355fdaba79f44e97fc27b3903994a
+      internalID: -419053499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac73fccb995a1ef47b425f6c932e7888
+      internalID: 1898213425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d83f1f945b96d4583a373844fe6f23
+      internalID: 416492582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783991b16ba38c44294c17a2b2868baf
+      internalID: 2147379956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9e61a349ba1e344a0c2ece9278b6d5
+      internalID: 629550293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_56
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86638ace00d9cb7428d9af1fa8c9bdde
+      internalID: 764385704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_57
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a06d68313ed16f4b84005266a7b89d5
+      internalID: -1677504647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ca06f3a9dd3746a4beca22d061edd
+      internalID: -485416248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb11d75f3b2e494a94651847a1f5b19
+      internalID: 1209438391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma1"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9501bb7fab5bf3f40b4db0a33fb0fa6a
+      internalID: 721343956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma2"
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f9e8d617e61c84d8e0170e0584b772
+      internalID: -1653217622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma3"
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216e00ebf4f2f9e45bef52f4165b881d
+      internalID: -1660515291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma4"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5888b9cc98419064c91a8192e80396fa
+      internalID: 1537541290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma5"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4bf4014da80814f88975d1ef021925
+      internalID: -209928606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma6"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896eff3263d477740988f3957572a472
+      internalID: -360960455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma7"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 176
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9141283ba40404f4297d4eb85198ac69
+      internalID: -931869560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "merdivenC\u0131kma8"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 176
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f799ce960697ac54eab973e226989556
+      internalID: -186090649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ce8fc25bb5e7648a9ec9ada1de865c
+      internalID: -1979498771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_69
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7912731044bd744ba42b42eff57460
+      internalID: -303819513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170667a856ef8724f90c70b330b94d7b
+      internalID: -434455496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_71
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 144
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd84c0bde5d60774f991cef33316776f
+      internalID: -162262169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_72
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 144
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17a18059839beb478e722b86102acca
+      internalID: -702052717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_73
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ffe14c123d5449801c7a5a9ae24e7
+      internalID: 251411192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_74
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe898aac65c3b334088ce096890f7c17
+      internalID: 1777253541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_75
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c82413fcae51a459e3d7ff1959ac7d
+      internalID: 1161301974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6358c7ae69aef42bf8f63b41a26a6c
+      internalID: -1251224195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_77
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 144
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e0a1ab16ef95648978db504f57b8e2
+      internalID: -1344872932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merdivenDurma1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef9c3e8823a26a49920e2352e2f24c1
+      internalID: 1891028988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_79
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 146
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9802f939db59f4db9a817a8a379267
+      internalID: 1116310769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_80
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 148
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0552154924e434ba616a639c995c60
+      internalID: 1097179037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_81
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 149
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee65e98e1c15b04a9705ce037501915
+      internalID: 1148815752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_82
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 150
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45be56258b31a747aea82cef62d1251
+      internalID: 80817247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kazmak1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44202745a01c0f64e9e4d215127e86a2
+      internalID: 874762425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kazmak2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 112
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89914f286914164c9a3f35d5c9475e2
+      internalID: 2125705790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kazmak3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 112
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef55ac0a7452c544b869590ccea17f5
+      internalID: 212975714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kazmak4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 112
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b9f9bfc788fbc448cc6564ed8d87dd
+      internalID: -539170985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_87
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 112
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5396adfa49aaeb04cba943ff8eff2d66
+      internalID: -683219503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_88
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 112
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45b9bffef6c624eb73af423dd31fd9
+      internalID: 711751600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_89
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 112
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4115c6dd9b1d6e5459f2b3c52178be4d
+      internalID: 1815863566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_90
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 112
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475defbaf3fd9a747afe04172cfa8303
+      internalID: -248389606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_91
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6186510a4d5da04499974a10bf7a2ba
+      internalID: -1632596760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_92
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea64bbd58cfab954f9478ef8f3b837c3
+      internalID: 619388922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_93
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a1381e6a6a974292dd69c3295b852
+      internalID: -1855027563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_94
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733cbc3a9e9761d42bd61da5806bdeb7
+      internalID: 874944992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_95
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 80
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2729d4778f7bcc47a0174fcea703bb4
+      internalID: -226071264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_97
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f1c0bc5e365394eabfb15721c27406
+      internalID: -1394890937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_98
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2d02f737acb3c4daadd0ff3d924923
+      internalID: 301204143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_99
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fbd5c9ac556cb49a26b07c245fd247
+      internalID: -44947670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_100
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168c15e434a1bc34a910f75ac92c94d3
+      internalID: 191679680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_101
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7421ef92e71b28249912239edf5bd5ba
+      internalID: 45896485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_102
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685d38044258684f855b4c600de4663
+      internalID: -191767137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_103
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87dc64fa5c8d5847b0dc79b702fd879
+      internalID: 1476795396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_104
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35f239394b181543a672bd79a5655d5
+      internalID: 1330968052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31cc4ffe02a0974fb5084f0750624e6
+      internalID: -1076038218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_106
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857c8b4fea960974fa7cb4bb2238c6e7
+      internalID: -1286901217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_107
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b7d89512aa22648b3ad6af5b2e35d8
+      internalID: 1279218666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_108
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d73113b96220d46a26f566c5c3123d
+      internalID: -1618672665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_109
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889c534a48c425438252ee6963e25f2
+      internalID: 1918186263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_110
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 48
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d72403ba52f14a911070e5571791a
+      internalID: 912037392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_111
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 49
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c185b1c64e1ce74e8818187920e51a6
+      internalID: 1580393252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_112
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5015a884b4248a44984201faac1f38d9
+      internalID: 1346045509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_113
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 54
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e03b350444484ba0814cde533d410
+      internalID: 1368826073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 54
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1490ccb086b9147919c0b1f2c9c69e
+      internalID: 287311414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_115
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e2228c1aedb44c9c502128a923f6f
+      internalID: -852957802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_116
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 48
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cd80f414e57694abad18f8e83f7e84
+      internalID: 875034525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_117
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 49
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e57dfead18ad254aae95586b3992910
+      internalID: -1159620762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_118
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3969d0877d13de94097596ed31b90eef
+      internalID: 681628515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_119
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 54
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb23b2c6f0af7438de72e820f2c4cf
+      internalID: 209735536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_120
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 54
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d2c4bd2f8b1124c9fa99ff30088390
+      internalID: 815110659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_121
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 48
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c4e277abd1f6a4cbfe408c24ecf0c3
+      internalID: -1876625827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9b8b442f1917439bab2da1fe0a9c3
+      internalID: -968259375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merdivenDurma2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c474b44648a8b459be97ce36fbf60f
+      internalID: -1434636276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merdivenDurma3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 144
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e38c0d02052ac1409a829d0fba69ba1
+      internalID: -426826206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merdiven durma 4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 144
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98094613207804a449cc873123ee2406
+      internalID: -933746399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460c2b417f3cab94fbd19ebd496cd82c
+      internalID: 902240460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416fb306f6101514e9f5af5ec40a68c6
+      internalID: -1089763983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec0d540e0aade4fa052e95dfc0f637
+      internalID: -869204092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cfb0435ca2eff4896009387dd50128
+      internalID: -92081263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_64
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 16
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0ac4f1e76d5a64e9b23d93c2c7cad1
+      internalID: 144729148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97bfab3cfbafad4cbf7935244f7c444
+      internalID: -1450819086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3562739b76c3ee479e74e4391be9f62
+      internalID: -1544976598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163afcf4c3f51224ca44af4827f28e1b
+      internalID: 224505231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f9e4bf602f8d543b9fcd9b4935db52
+      internalID: 1252489880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b28fff156d5544896a96ef5d78dd7f
+      internalID: -1568656777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3ae12b3ac78244c8a97a9c86f8a238
+      internalID: 1552218457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1: 902240460
+      11: 1552218457
+      2: -1089763983
+      3: -869204092
+      4: -92081263
+      5: -1450819086
+      6: -1544976598
+      7: 224505231
+      8: 1252489880
+      9: -1568656777
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_0: 601959897
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_1: 798606589
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_10: 505259833
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_100: 191679680
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_101: 45896485
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_102: -191767137
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_103: 1476795396
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_104: 1330968052
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_105: -1076038218
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_106: -1286901217
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_107: 1279218666
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_108: -1618672665
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_109: 1918186263
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_11: 878925354
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_110: 912037392
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_111: 1580393252
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_112: 1346045509
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_113: 1368826073
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_114: 287311414
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_115: -852957802
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_116: 875034525
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_117: -1159620762
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_118: 681628515
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_119: 209735536
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_12: 1247818875
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_120: 815110659
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_121: -1876625827
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_122: -468009023
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_123: -555146940
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_13: 1452325722
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_14: -1746496863
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_15: -683358014
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_16: 1972319323
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_17: -1557797058
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_18: 1977221062
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_19: 445924045
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_2: 540935150
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_20: -1746210579
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_21: -1752673186
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_22: -226154005
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_23: 980674228
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_24: 1187525065
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_25: -1494718726
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_26: 608909593
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_27: 196711584
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_28: 1203583098
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_29: -1652126800
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_3: 118914340
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_30: 397377987
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_31: 96616494
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_32: -278566143
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_33: -668428606
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_34: -1420377164
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_35: -1156960000
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_36: -986266186
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_37: 745486454
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_38: -502280992
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_39: -1629095140
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_4: -414176392
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_40: -1592133383
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_41: 1567538182
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_42: -172358024
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_43: 65400571
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_44: 938777066
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_45: -814955294
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_46: 1170269976
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_47: -1014982602
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_48: -937606419
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_49: 1391647680
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_5: 1593785457
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_50: -485780394
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_51: -419053499
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_52: 1898213425
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_53: 416492582
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_54: 2147379956
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_55: 629550293
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_56: 764385704
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_57: -1677504647
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_58: -485416248
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_59: 1209438391
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_6: -374921690
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_64: 144729148
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_68: -1979498771
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_69: -303819513
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_7: -549653124
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_70: -434455496
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_71: -162262169
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_72: -702052717
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_73: 251411192
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_74: 1777253541
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_75: 1161301974
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_76: -1251224195
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_77: -1344872932
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_79: 1116310769
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_8: -386791648
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_80: 1097179037
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_81: 1148815752
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_82: 80817247
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_87: -683219503
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_88: 711751600
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_89: 1815863566
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_9: 309669955
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_90: -248389606
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_91: -1632596760
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_92: 619388922
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_93: -1855027563
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_94: 874944992
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_95: -226071264
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_96: -968259375
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_97: -1394890937
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_98: 301204143
+      Amiga Amiga CD32 - P P Hammer and his Pneumatic Weapon - PP Hammer_99: -44947670
+      kazmak1: 874762425
+      kazmak2: 2125705790
+      kazmak3: 212975714
+      kazmak4: -539170985
+      merdiven durma 4: -933746399
+      "merdivenC\u0131kma1": 721343956
+      "merdivenC\u0131kma2": -1653217622
+      "merdivenC\u0131kma3": -1660515291
+      "merdivenC\u0131kma4": 1537541290
+      "merdivenC\u0131kma5": -209928606
+      "merdivenC\u0131kma6": -360960455
+      "merdivenC\u0131kma7": -931869560
+      "merdivenC\u0131kma8": -186090649
+      merdivenDurma1: 1891028988
+      merdivenDurma2: -1434636276
+      merdivenDurma3: -426826206
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
