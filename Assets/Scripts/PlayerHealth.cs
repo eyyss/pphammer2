@@ -70,10 +70,12 @@ public class PlayerHealth : MonoBehaviour
         float normalGravityScale = rb.gravityScale;
         rb.gravityScale = 0;
         collider.enabled = false;
+        playerMovement.SetMove(false);
         transform.DOMoveY(transform.position.y + 4f, 2f).OnComplete(delegate
         {
             collider.enabled = true;
             rb.gravityScale = normalGravityScale;
+            playerMovement.SetMove(true);
             playerMovement.MoveToStartPoint();
             animator.SetTrigger("Respawn");
         });

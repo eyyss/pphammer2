@@ -1,4 +1,4 @@
 ﻿public static class Const
 {
-    public const string DestroyableObjectTag = "DestroyableObject";
+    public const string DestroyableObjectName = "Destroyable";
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     private PlayerHealth playerHealth;
+    public InfoText infoText;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.TryGetComponent(out ICollectable collectable))

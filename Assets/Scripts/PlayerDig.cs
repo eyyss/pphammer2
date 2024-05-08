@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
+using UnityEngine.Tilemaps;
 
 public class PlayerDig : MonoBehaviour
 {
@@ -14,6 +13,7 @@ public class PlayerDig : MonoBehaviour
     [SerializeField] private GameObject destroyableObjectPrefab;
     [SerializeField] private float destroyableObjectSpawnTime;
     [SerializeField] private LayerMask layerMask;
+    [SerializeField] private Transform tileSelector;
 
     public float normalDigTime = 1, fastDigTime = 0.5f;
     private float digTime;
@@ -46,41 +46,58 @@ public class PlayerDig : MonoBehaviour
 
         bool isGrounded = animator.GetBool("IsGrounded");
 
-        if (!CheckDir() && isGrounded)
+        if (hit.collider!=null &&!CheckDir() && isGrounded)
         {
-            if (hit.collider != null && hit.collider.CompareTag(Const.DestroyableObjectTag))
+            bool destroyable = false;
+            Vector3Int point = Vector3Int.zero;
+            Tilemap tileMap = null;
+            if (hit.collider.TryGetComponent(out Tilemap _tilemap))
+            {
+                tileMap = _tilemap;
+                point = tileMap.WorldToCell(tileSelector.position);
+                Sprite sprite = tileMap.GetSprite(point);
+                if (sprite)
+                {
+                    if (sprite.name == Const.DestroyableObjectName) destroyable = true;
+                }
+            }
+            if (hit.collider != null && destroyable)
             {
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
                 {
                     dig = true;
                     playerMovement.SetMove(false);
                     animator.SetTrigger("Dig");
-                    StartCoroutine(ResetDig(hit));
+                    StartCoroutine(ResetDig(tileMap,point));
                 }
             }
         }
-        
-
-
 
     }
-    private IEnumerator ResetDig(RaycastHit2D hit)
+  
+    private void OnDrawGizmos()
+    {
+        Vector3 dir = transform.right;
+        if (transform.localScale.x > 0) dir = transform.right;
+        if (transform.localScale.x < 0) dir = -transform.right;
+        Vector3 pos = transform.position + dir * 0.5f;
+        Gizmos.DrawRay(pos, Vector2.down * digDistance);
+    }
+    private IEnumerator ResetDig(Tilemap tilemap,Vector3Int pos)
     {
         yield return new WaitForSeconds(digTime);
-        if (hit.collider.CompareTag(Const.DestroyableObjectTag))
-        {
-            Vector3 pos = hit.collider.transform.position;
-            Destroy(hit.collider.gameObject);
-            StartCoroutine(CreateDeletedObject(pos));
-        }
+        TileBase tileBase= tilemap.GetTile(pos);
+        tilemap.SetTile(pos, null);
+
+        StartCoroutine(CreateDeletedObject(tileBase,pos,tilemap));
         dig = false;
         playerMovement.SetMove(true);
     }
 
-    private IEnumerator CreateDeletedObject(Vector3 pos)
+    private IEnumerator CreateDeletedObject(TileBase tileBase,Vector3Int pos,Tilemap tilemap)
     {
         yield return new WaitForSeconds(destroyableObjectSpawnTime);
-        Instantiate(destroyableObjectPrefab, pos, Quaternion.identity);
+        tilemap.SetTile(pos, tileBase);
     }
 
     private bool CheckDir()
@@ -90,9 +107,9 @@ public class PlayerDig : MonoBehaviour
         if (transform.localScale.x > 0) dir = transform.right;
         if (transform.localScale.x < 0) dir = -transform.right;
 
-        RaycastHit2D hit = Physics2D.Raycast(pos, dir, 2, layerMask);
-        Debug.DrawRay(pos, dir *2 ,hit.collider != null ? Color.red : Color.green  );
-        if (hit.collider!=null && hit.collider.CompareTag(Const.DestroyableObjectTag))
+        RaycastHit2D hit = Physics2D.Raycast(pos, dir, 0.5f, layerMask);
+        Debug.DrawRay(pos, dir * 0.5f, hit.collider != null ? Color.red : Color.green  );
+        if (hit.collider!=null)//&&hit.collider.CompareTag(Const.DestroyableObjectName)
         {
             return true;
         }

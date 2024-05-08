@@ -9,6 +9,8 @@ public class PlayerItemController : MonoBehaviour
     private PlayerGhost playerGhost;
     private PlayerOil playerOil;
 
+    private KeyHole keyHole;
+
 
     private void Start()
     {
@@ -69,6 +71,25 @@ public class PlayerItemController : MonoBehaviour
             case ItemType.GreenPotion:
                 StartCoroutine( playerOil.OilAction());
                 break;
+            case ItemType.GreenKey:
+                if (keyHole!=null)
+                    keyHole.OpenDoor();
+                break;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.TryGetComponent(out KeyHole _keyHole))
+        {
+            keyHole = _keyHole;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent(out KeyHole _keyHole))
+        {
+            keyHole = null;
         }
     }
 }

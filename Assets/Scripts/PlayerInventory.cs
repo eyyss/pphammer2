@@ -70,7 +70,7 @@ public class ItemData
 
 public enum ItemType
 {
-    BluePotion,YellowPotion,RedPotion,GreenPotion
+    BluePotion,YellowPotion,RedPotion,GreenPotion,GreenKey,RedKey,BlueKey
 }
 
 public interface ICollectable
