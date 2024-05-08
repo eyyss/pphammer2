@@ -10,10 +10,8 @@ public class Door : MonoBehaviour
     public ItemType keyType;
     public void Open()
     {
-        transform.DOScaleY(1, 0.4f).OnComplete(delegate
-        {
-            collider.isTrigger = true;
-        });
+        collider.enabled = false;
+        transform.DOScaleY(1, 0.4f);
     }
 
 }

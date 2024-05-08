@@ -65,6 +65,7 @@ public class PlayerDig : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
                 {
+                    playerMovement.transform.position = tileSelector.position+Vector3.up-dir/2;
                     dig = true;
                     playerMovement.SetMove(false);
                     animator.SetTrigger("Dig");
@@ -107,8 +108,8 @@ public class PlayerDig : MonoBehaviour
         if (transform.localScale.x > 0) dir = transform.right;
         if (transform.localScale.x < 0) dir = -transform.right;
 
-        RaycastHit2D hit = Physics2D.Raycast(pos, dir, 0.5f, layerMask);
-        Debug.DrawRay(pos, dir * 0.5f, hit.collider != null ? Color.red : Color.green  );
+        RaycastHit2D hit = Physics2D.Raycast(pos, dir, 1, layerMask);
+        Debug.DrawRay(pos, dir * 1, hit.collider != null ? Color.red : Color.green  );
         if (hit.collider!=null)//&&hit.collider.CompareTag(Const.DestroyableObjectName)
         {
             return true;

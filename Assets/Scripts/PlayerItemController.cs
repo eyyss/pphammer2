@@ -50,12 +50,13 @@ public class PlayerItemController : MonoBehaviour
         PlayerInventory inventory = PlayerInventory.Instance;
         if (!inventory.slotList[index].IsEmpty())
         {
-            Use(inventory.slotList[index].itemData.itemType);
+            bool use = Use(inventory.slotList[index].itemData.itemType);
             Debug.Log(inventory.slotList[index].itemData.itemType);
-            inventory.RemoveItem(inventory.slotList[index].itemData);
+            if (use)
+                inventory.RemoveItem(inventory.slotList[index].itemData);
         }
     }
-    public void Use(ItemType itemType)
+    public bool Use(ItemType itemType)
     {
         switch (itemType)
         {
@@ -72,10 +73,15 @@ public class PlayerItemController : MonoBehaviour
                 StartCoroutine( playerOil.OilAction());
                 break;
             case ItemType.GreenKey:
-                if (keyHole!=null)
+                if (keyHole != null)
+                {
                     keyHole.OpenDoor();
+                }
+                else return false;
+                    
                 break;
         }
+        return true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
