@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        if (Input.GetAxisRaw("Down") != 0 && inputX == 0 && !isClimbing)
+        if (Input.GetAxisRaw("Down") != 0 && inputX == 0 && !isClimbing && isGrounded)
         {
             collider.size = crouchColliderScale;
             collider.offset = crouchColliderOffset;
@@ -241,5 +241,9 @@ public class PlayerMovement : MonoBehaviour
     public void MoveToStartPoint()
     {
         transform.position = startPoint;
+    }
+    public void AddForce(Vector2 dir,ForceMode2D mode)
+    {
+        rb.AddForce(dir, mode);
     }
 }

@@ -10,7 +10,6 @@ public class PlayerDig : MonoBehaviour
 
     [SerializeField] private float digDistance;
 
-    [SerializeField] private GameObject destroyableObjectPrefab;
     [SerializeField] private float destroyableObjectSpawnTime;
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private Transform tileSelector;
@@ -65,7 +64,7 @@ public class PlayerDig : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
                 {
-                    playerMovement.transform.position = tileSelector.position+Vector3.up-dir/2;
+                    //playerMovement.transform.position = tileSelector.position+Vector3.up-dir/2;
                     dig = true;
                     playerMovement.SetMove(false);
                     animator.SetTrigger("Dig");

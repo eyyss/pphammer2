@@ -73,12 +73,27 @@ public class PlayerItemController : MonoBehaviour
                 StartCoroutine( playerOil.OilAction());
                 break;
             case ItemType.GreenKey:
-                if (keyHole != null)
+                if (keyHole != null && keyHole.keyType == ItemType.GreenKey)
                 {
                     keyHole.OpenDoor();
                 }
                 else return false;
-                    
+                break;
+            case ItemType.RedKey:
+                if (keyHole != null && keyHole.keyType == ItemType.RedKey)
+                {
+                    keyHole.OpenDoor();
+                }
+                else return false;
+
+                break;
+            case ItemType.BlueKey:
+                if (keyHole != null && keyHole.keyType == ItemType.BlueKey)
+                {
+                    keyHole.OpenDoor();
+                }
+                else return false;
+
                 break;
         }
         return true;
