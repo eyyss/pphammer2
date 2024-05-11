@@ -962,6 +962,7 @@ MonoBehaviour:
   tileSelector: {fileID: 4140195673790365723}
   normalDigTime: 1
   fastDigTime: 0.5
+  deadBoxSize: {x: 0.8, y: 0.8, z: 0}
 --- !u!114 &3272911684654574339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1030,7 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8add8302fd843394e9f84cd8cb053e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 10
+  levelTime: 500
   levelTimerText: {fileID: 7984371082375721373}
   deadScreeen: {fileID: 2362901788506842723}
   loadScreen: {fileID: 1294456239768360497}

@@ -20,6 +20,8 @@ public class PlayerDig : MonoBehaviour
 
     private bool dig;
 
+    public Vector3 deadBoxSize = new Vector3(0.4f, 0.7f);
+    private Vector2 deadBoxPosition;
 
     private void Start()
     {
@@ -82,6 +84,8 @@ public class PlayerDig : MonoBehaviour
         if (transform.localScale.x < 0) dir = -transform.right;
         Vector3 pos = transform.position + dir * 0.5f;
         Gizmos.DrawRay(pos, Vector2.down * digDistance);
+        if(playerMovement!=null)
+            Gizmos.DrawWireCube(deadBoxPosition, deadBoxSize);
     }
     private IEnumerator ResetDig(Tilemap tilemap,Vector3Int pos)
     {
@@ -97,8 +101,20 @@ public class PlayerDig : MonoBehaviour
     private IEnumerator CreateDeletedObject(TileBase tileBase,Vector3Int pos,Tilemap tilemap)
     {
         yield return new WaitForSeconds(destroyableObjectSpawnTime);
+        Vector2 worldPosition = tilemap.CellToWorld(pos);
+        deadBoxPosition = worldPosition+new Vector2(0.5f,0.5f);//tilemap bound'u sol alttan baþlýyor(standard bound sol üstten baþlýyor)
+        var hits = Physics2D.BoxCastAll(deadBoxPosition, deadBoxSize, 0, Vector2.zero);
+        foreach (var hit in hits)
+        {
+            if(hit.collider.TryGetComponent(out PlayerHealth playerHealth))
+            {
+                Debug.Log(worldPosition);
+                playerHealth.Respawn();
+            }
+        }
         tilemap.SetTile(pos, tileBase);
     }
+
 
     private bool CheckDir()
     {
