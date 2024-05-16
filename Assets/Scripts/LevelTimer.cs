@@ -12,22 +12,26 @@ public class LevelTimer : MonoBehaviour
     public Text levelTimerText;
     private bool complate = false;
     private PlayerHealth health;
-    public CanvasGroup deadScreeen;
-    public CanvasGroup loadScreen;
-    public Slider levelContinueSlider;
 
-    private bool second10;
-    private float second10Timer = 10;
+    private bool timerState = true;
+
     void Start()
     {
         health = GetComponent<PlayerHealth>();
-        levelContinueSlider.maxValue = second10Timer;
         StartTimer();
     }
-
+    public void StartTimer()
+    {
+        currentTime = levelTime;
+    }
+    public void SetTimerState(bool state)
+    {
+        timerState = state;
+    }
     void Update()
     {
-        currentTime -= Time.deltaTime;
+        if (timerState)
+            currentTime -= Time.deltaTime;
         levelTimerText.text = "Time: "+((int)currentTime).ToString();
         if (currentTime<0)
         {
@@ -38,45 +42,18 @@ public class LevelTimer : MonoBehaviour
         {
             complate = true;
             currentTime = 0;
-            StartCoroutine(RestartScene());
+            health.Dead();
             Debug.Log("Zaman doldu!");
         }
 
-        if (second10)
-        {
-            second10Timer -= Time.deltaTime;
-            levelContinueSlider.value = second10Timer;
-        }
-        
     }
-
-    IEnumerator RestartScene()
+    
+    public float CurrentTime()
     {
-        health.Dead();
-        yield return new WaitForSeconds(2);
-        deadScreeen.alpha = 1;
-        StartCoroutine(Wait10Seconds());
-        yield return new WaitUntil(delegate {
-            return Input.GetKeyDown(KeyCode.Space);
-        });
-
-        loadScreen.alpha = 1;
-        yield return new WaitForSeconds(4);
-        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        return currentTime;
     }
 
-    IEnumerator Wait10Seconds()
-    {
-        second10 = true;
-        yield return new WaitForSeconds(10);
-        second10 = false;
-        SceneManager.LoadScene("Menu");
-    }
 
-    public void StartTimer()
-    {
-        currentTime = levelTime;
-    }
+
 
 }

@@ -272,7 +272,7 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,6 +280,48 @@ TextureImporter:
       bones: []
       spriteID: d68f5c4574822b0468483f5a73a17429
       internalID: 694122631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HorseHead
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 229
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ed2742dc6ca646bb82b51c53f129c
+      internalID: -291223843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 327
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b829148642cdca4aa3f5bff8dcf08c0
+      internalID: 1480496594
       vertices: []
       indices: 
       edges: []
@@ -303,6 +345,8 @@ TextureImporter:
       1_-_Transparent_Icons_5: 746992964
       1_-_Transparent_Icons_6: 2066973409
       Book: 1362141823
+      Fish: 1480496594
+      HorseHead: -291223843
       Papper: 694122631
   spritePackingTag: 
   pSDRemoveMatte: 0

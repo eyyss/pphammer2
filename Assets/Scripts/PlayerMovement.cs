@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,9 +20,12 @@ public class PlayerMovement : MonoBehaviour
 
     private float inputX;
     private float inputY;
+    private float xVelocity = 1;
 
     private float moveSpeed;
     [SerializeField]private float walkSpeed = 4;
+    [SerializeField] private float iceSpeed = 4;
+    [SerializeField] private float mudSpeed = 4;
 
     [SerializeField] private float crouchSpeed = 2;
     [SerializeField] private Vector2 crouchColliderOffset;
@@ -40,6 +45,12 @@ public class PlayerMovement : MonoBehaviour
     public Slider jumpSlider;
 
     private Vector3 startPoint;
+
+    public GroundType groundType;
+
+
+
+    
 
     void Start()
     {
@@ -124,7 +135,18 @@ public class PlayerMovement : MonoBehaviour
 
         if (!isClimbing)
         {
-            rb.velocity = new Vector2(inputX * moveSpeed, rb.velocity.y);
+            switch (groundType)
+            {
+                case GroundType.normal:
+                    rb.velocity = new Vector2(inputX * moveSpeed, rb.velocity.y);
+                    break;
+                case GroundType.ice:
+                    rb.velocity = new Vector2(iceSpeed, rb.velocity.y);
+                    break;
+                case GroundType.mud:
+                    rb.velocity = new Vector2(inputX * mudSpeed, rb.velocity.y);
+                    break;
+            }
         }
         else
         {
@@ -139,7 +161,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (!isClimbing)
         {
-            animator.SetFloat("Speed", Mathf.Abs(inputX));
+            float newInputX = inputX;
+            if (groundType == GroundType.ice) newInputX = 0;
+
+            animator.SetFloat("Speed", Mathf.Abs(newInputX));
         }
         else
         {
@@ -151,8 +176,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FlipCharacter()
     {
-        if (inputX == 0) return;
-        transform.localScale = new Vector3(inputX, transform.localScale.y, transform.localScale.z);
+        //if (inputX == 0) return;
+        //transform.localScale = new Vector3(inputX, transform.localScale.y, transform.localScale.z);
+        if (rb.velocity.x < 0) xVelocity = -1;
+        if(rb.velocity.x > 0) xVelocity = 1;
+        transform.localScale = new Vector3(xVelocity, transform.localScale.y, transform.localScale.z);
+
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -245,5 +274,9 @@ public class PlayerMovement : MonoBehaviour
     public void AddForce(Vector2 dir,ForceMode2D mode)
     {
         rb.AddForce(dir, mode);
+    }
+    public void ChangeGroundType(GroundType newType)
+    {
+        groundType = newType;
     }
 }

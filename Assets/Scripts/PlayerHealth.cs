@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Slider healthSlider;
     public bool isDead;
+    public bool isRespawn;
     public int lifeCount = 3;
     public Text lifeText;
 
@@ -24,6 +26,12 @@ public class PlayerHealth : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Color hitColor = Color.white;
 
+    public CanvasGroup deadScreeen;
+    public CanvasGroup loadScreen;
+    public Slider levelContinueSlider;
+    private float second10Timer = 10;
+    private bool second10;
+
     private void Start()
     {
         collider = GetComponent<Collider2D>();
@@ -34,7 +42,10 @@ public class PlayerHealth : MonoBehaviour
         healthSlider.maxValue = maxHealth;
         healthSlider.value = health;
         lifeText.text = "Life: " + lifeCount;
+
+        levelContinueSlider.maxValue = second10Timer;
     }
+
     public void TakeDamage(float damageValue)
     {
         if (ghost.isActiveGhostMode) return;
@@ -72,7 +83,38 @@ public class PlayerHealth : MonoBehaviour
         rb.gravityScale = 0;
         collider.enabled = false;
         playerMovement.SetMove(false);
-        transform.DOMoveY(transform.position.y + 4f, 2f);
+        transform.DOMoveY(transform.position.y + 4f, 2f).OnComplete(delegate
+        {
+            //olum sesini cal
+            StartCoroutine(GoDeadScreen());
+        });
+    }
+    IEnumerator GoDeadScreen()
+    {
+        Transition.Instance?.FadeIn();
+        yield return new WaitForSeconds(2);
+        Transition.Instance?.FadeOut();
+        deadScreeen.alpha = 1;
+        StartCoroutine(Wait10Seconds());
+        yield return new WaitUntil(delegate {
+            return Input.GetKeyDown(KeyCode.Space);
+        });
+
+        Transition.Instance?.FadeIn();
+        yield return new WaitForSeconds(1);
+        loadScreen.alpha = 1;
+        yield return new WaitForSeconds(4);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    IEnumerator Wait10Seconds()
+    {
+        second10 = true;
+        yield return new WaitForSeconds(10);
+        second10 = false;
+        Transition.Instance?.FadeIn();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Menu");
     }
 
     public void Respawn()
@@ -97,6 +139,7 @@ public class PlayerHealth : MonoBehaviour
     private void RespawnAnimation()
     {
         float normalGravityScale = rb.gravityScale;
+        isRespawn = true;
         rb.gravityScale = 0;
         collider.enabled = false;
         playerMovement.SetMove(false);
@@ -104,6 +147,7 @@ public class PlayerHealth : MonoBehaviour
         {
             collider.enabled = true;
             rb.gravityScale = normalGravityScale;
+            isRespawn = false;
             playerMovement.SetMove(true);
             playerMovement.MoveToStartPoint();
             animator.SetTrigger("Respawn");
@@ -119,5 +163,20 @@ public class PlayerHealth : MonoBehaviour
     {
         lifeCount += count;
         lifeText.text = "Life: " + lifeCount;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F12) && !isRespawn && !isDead)
+        {
+            Respawn();
+        }
+
+
+        if (second10)
+        {
+            second10Timer -= Time.deltaTime;
+            levelContinueSlider.value = second10Timer;
+        }
     }
 }
