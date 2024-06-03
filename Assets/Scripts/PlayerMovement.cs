@@ -49,11 +49,15 @@ public class PlayerMovement : MonoBehaviour
     public GroundType groundType;
 
 
+    private float normalScaleX;
+
 
     
 
     void Start()
     {
+        normalScaleX = transform.localScale.x;
+
         startPoint = transform.position;
         collider= GetComponent<CapsuleCollider2D>();
         rb = GetComponent<Rigidbody2D>();
@@ -178,8 +182,8 @@ public class PlayerMovement : MonoBehaviour
     {
         //if (inputX == 0) return;
         //transform.localScale = new Vector3(inputX, transform.localScale.y, transform.localScale.z);
-        if (rb.velocity.x < 0) xVelocity = -1;
-        if(rb.velocity.x > 0) xVelocity = 1;
+        if (rb.velocity.x < 0) xVelocity = -normalScaleX;
+        if(rb.velocity.x > 0) xVelocity = normalScaleX;
         transform.localScale = new Vector3(xVelocity, transform.localScale.y, transform.localScale.z);
 
     }
