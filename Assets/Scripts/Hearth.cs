@@ -13,6 +13,7 @@ public class Hearth : MonoBehaviour,ICollectable
     {
         Destroy(gameObject);
         health.AddLife(1);
+        SoundManager.Instance.PlayOneShot("Collect");
     }
 
 
