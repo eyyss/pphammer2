@@ -11,7 +11,7 @@ public class WorldItem : MonoBehaviour, ICollectable
         if (PlayerInventory.Instance.AddItem(itemData))
         {
             Destroy(gameObject);
-            
+            SoundManager.Instance.PlayOneShot("Collect");
         }
     }
 

@@ -124,10 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d0160fe21817740b97535fb06b8a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potionType: 2
   itemData:
     itemName: Jump Potion
     itemSprite: {fileID: -2136617713, guid: bc080fce1aeeb844a8adcf05ca419d78, type: 3}
-    useAction:
-      m_PersistentCalls:
-        m_Calls: []
+    itemType: 0
+    useClip: {fileID: 8300000, guid: 2be9f089554fcc64689292e039d50029, type: 3}

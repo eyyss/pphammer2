@@ -20,6 +20,8 @@ public class Teleport : MonoBehaviour
             {
                 rb.gravityScale = 2;
             });
+
+            SoundManager.Instance.PlayOneShot("Teleport");
         }
     }
 }

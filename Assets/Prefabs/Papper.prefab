@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterInfo: Enter
-  exitInfo: Exit
+  exitInfo: 
 --- !u!61 &6922059768400847289
 BoxCollider2D:
   m_ObjectHideFlags: 0

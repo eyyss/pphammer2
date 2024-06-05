@@ -53,6 +53,10 @@ public class LevelTimer : MonoBehaviour
         return currentTime;
     }
 
+    public void AddTime(float value)
+    {
+        currentTime += value;
+    }
 
 
 

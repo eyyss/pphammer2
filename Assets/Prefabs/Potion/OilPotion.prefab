@@ -128,3 +128,4 @@ MonoBehaviour:
     itemName: Oil Potion
     itemSprite: {fileID: -751944940, guid: bc080fce1aeeb844a8adcf05ca419d78, type: 3}
     itemType: 3
+    useClip: {fileID: 8300000, guid: 6935e682821d7694eb53b0bbec978fa5, type: 3}
