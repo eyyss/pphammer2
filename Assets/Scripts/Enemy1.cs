@@ -8,7 +8,6 @@ public class Enemy1 : MonoBehaviour
     public Transform targetTransform;
     private Vector3 startPos;
     private Vector3 targetPos;
-    public int damage;
     public int pushForce = 1;
     private Vector3 scale;
 
@@ -73,11 +72,5 @@ public class Enemy1 : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.TryGetComponent(out PlayerHealth health))
-        {
-            health.TakeDamage(damage);
-        }
-    }
+   
 }
