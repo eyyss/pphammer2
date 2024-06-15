@@ -26,7 +26,7 @@ public class PlayerDig : MonoBehaviour
     private void Start()
     {
         playerMovement = GetComponent<PlayerMovement>();
-        digTime = normalDigTime;
+        ChangeDigTime(normalDigTime);
     }
     public void ChangeDigTime(float value)
     {
@@ -64,13 +64,19 @@ public class PlayerDig : MonoBehaviour
             }
             if (hit.collider != null && destroyable)
             {
+                if (playerMovement.IsCrouching()) return;
+
                 if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl))
                 {
                     //playerMovement.transform.position = tileSelector.position+Vector3.up-dir/2;
                     dig = true;
                     playerMovement.SetMove(false);
                     animator.SetTrigger("Dig");
-                    SoundManager.Instance.PlayOneShot("Dig");
+
+                    if (digTime == fastDigTime)
+                        SoundManager.Instance.PlayOneShot("DigFast");
+                    else SoundManager.Instance.PlayOneShot("Dig");
+
                     StartCoroutine(ResetDig(tileMap,point));
                 }
             }
@@ -95,6 +101,7 @@ public class PlayerDig : MonoBehaviour
         tilemap.SetTile(pos, null);
 
         StartCoroutine(CreateDeletedObject(tileBase,pos,tilemap));
+        animator.Play("Idle");
         dig = false;
         playerMovement.SetMove(true);
     }

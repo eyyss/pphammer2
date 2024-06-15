@@ -13,6 +13,7 @@ public class RockTrigger : MonoBehaviour
     [Tooltip("Pozisyonlara göre tam düþüceði pozisyonu bu deðiþkene yazmalýsýn")]
     public Vector3 fallPosition;
     public float fallDuration = 1;
+    public Ease fallEase = Ease.InOutQuint;
     private void Start()
     {
         collider = GetComponent<Collider2D>();
@@ -30,6 +31,9 @@ public class RockTrigger : MonoBehaviour
     {
         rock.transform.DOShakePosition(0.55f, strength, vibrato);
         yield return new WaitForSeconds(0.6f);
-        rock.transform.DOMove(fallPosition, fallDuration);
+        rock.transform.DOMove(fallPosition, fallDuration).SetEase(fallEase);
+        DOVirtual.DelayedCall(fallDuration - 0.3f, delegate {
+            SoundManager.Instance.PlayOneShot("RockFallDown");
+        });
     }
 }

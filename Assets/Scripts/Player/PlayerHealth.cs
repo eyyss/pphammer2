@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -70,7 +71,6 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer.color = tempColor;
         hitAnimation = false;
     }
-
     public void Dead()
     {
         Debug.Log("Dead");
@@ -181,6 +181,11 @@ public class PlayerHealth : MonoBehaviour
         {
             second10Timer -= Time.deltaTime;
             levelContinueSlider.value = second10Timer;
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Respawn();
         }
     }
 }

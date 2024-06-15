@@ -34,7 +34,10 @@ public class PlayerMovement : MonoBehaviour
 
     
     [SerializeField] private float climbSpeed = 2.5f;
-    [SerializeField]private float jumpHeight;
+    [SerializeField] private float jumpPotionDuration = 10f;
+    [SerializeField] private float normalJumpHeight;
+    [SerializeField] private float potionJumpHeight;
+    private float jumpHeight;
 
     [SerializeField] private bool isMove = true;
     [SerializeField] private bool isJump = true;
@@ -66,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         gravityScale = rb.gravityScale;
         normalColliderOffset = collider.offset;
         normalColliderScale = collider.size;
+        jumpHeight = normalJumpHeight;
     }
 
     void Update()
@@ -109,6 +113,11 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
 
+    }
+
+    public bool IsCrouching()
+    {
+        return isCrouching;
     }
 
     private void CheckUp()
@@ -228,13 +237,13 @@ public class PlayerMovement : MonoBehaviour
         if (jumpHeightCoroutine != null)
         {
             StopCoroutine(jumpHeightCoroutine);
-            jumpHeight = jumpHeight / 2;
+            jumpHeight = normalJumpHeight;
         }
 
         jumpHeightCoroutine = StartCoroutine(e());
         IEnumerator e()
         {
-            jumpHeight = jumpHeight * 2;
+            jumpHeight = potionJumpHeight;
 
             if (updateSliderValue !=null)
             {
@@ -245,15 +254,15 @@ public class PlayerMovement : MonoBehaviour
                 updateSliderValue = StartCoroutine(UpdateSliderValue());
             }
 
-            yield return new WaitForSeconds(5f);
-            jumpHeight = jumpHeight / 2;
+            yield return new WaitForSeconds(jumpPotionDuration);
+            jumpHeight = normalJumpHeight;
             jumpHeightCoroutine = null;
         }
 
     }
     IEnumerator UpdateSliderValue()
     {
-        jumpSlider.maxValue = 5f;
+        jumpSlider.maxValue = jumpPotionDuration;
         jumpSlider.value = jumpSlider.maxValue;
         while (true)
         {
@@ -289,5 +298,34 @@ public class PlayerMovement : MonoBehaviour
         rb.isKinematic = true;
         transform.position = pos;
         rb.isKinematic = false;
+    }
+
+
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+
+
+        Vector3 hitPosition = Vector3.zero;
+        foreach (ContactPoint2D hit in collision.contacts)
+        {
+            hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
+            hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
+        }
+
+        if (collision.gameObject.TryGetComponent(out Tilemap tilemap) && tilemap.CompareTag(Const.DestroyTileMapTag))
+        {
+            Debug.Log("Test");
+            hitPosition.y -= 0.5f;
+            deletePos = hitPosition;
+            tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
+        }
+
+    }
+
+    private Vector3 deletePos = Vector2.zero;
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireCube(deletePos,new Vector3(0.7f,0.7f,1));
     }
 }

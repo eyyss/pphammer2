@@ -1,12 +1,15 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.ParticleSystem;
 
 public class Trap : MonoBehaviour
 {
     public SpriteRenderer triangle;
     public bool isPlayerEnter = false;
+    private bool first;
     public float damage;
     private void Start()
     {
@@ -19,7 +22,14 @@ public class Trap : MonoBehaviour
             isPlayerEnter = true;
             StartCoroutine(SetDamage(health));
             triangle.gameObject.SetActive(true);
-            triangle.transform.DOMove(transform.position, 0.2f);
+            triangle.transform.DOMove(transform.position, 0.2f).OnStart(delegate
+            {
+                if(!first)
+                {
+                    first = true;
+                    SoundManager.Instance.PlayOneShot("Trap");
+                }
+            });
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

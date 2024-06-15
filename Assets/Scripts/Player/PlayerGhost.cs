@@ -10,7 +10,7 @@ public class PlayerGhost : MonoBehaviour
     
     public void OpenGhostMode()
     {
-        spriteRender.color = Color.gray;
+        spriteRender.color = Color.black;
         Debug.Log("test");
     }
     public void CloseGhostMode()

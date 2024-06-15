@@ -232,4 +232,5 @@ MonoBehaviour:
   strength: 0.1
   vibrato: 30
   fallPosition: {x: -43.63, y: -0.51, z: 0}
-  fallDuration: 1
+  fallDuration: 0.7
+  fallEase: 16
