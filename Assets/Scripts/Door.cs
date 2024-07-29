@@ -7,11 +7,12 @@ public class Door : MonoBehaviour
 {
     public Collider2D collider;
     public SpriteRenderer renderer;
+    public Animator animator;
     public ItemType keyType;
     public void Open()
     {
         collider.enabled = false;
-        transform.DOScaleY(1, 0.4f);
+        animator.SetTrigger("Open");
     }
 
 }

@@ -7,20 +7,29 @@ public class Bullet : MonoBehaviour
     public float moveSpeed = 20;
     private Vector3 moveDirection;
     public float damage = 1;
-    public void Initialize(Vector3 newMoveDirection)
+    private SpriteRenderer renderer;
+
+
+    public void Initialize(Vector3 newMoveDirection,Color color)
     {
+        
+        renderer = GetComponent<SpriteRenderer>();
+        renderer.color = color;
         moveDirection = newMoveDirection;
+
     }
     public void Update()
     {
-        transform.Translate(moveDirection*Time.deltaTime*moveSpeed);
+        transform.Translate(moveDirection * Time.deltaTime * moveSpeed);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.TryGetComponent(out PlayerHealth health))
+        if (collision.gameObject.TryGetComponent(out PlayerHealth health))
         {
             health.TakeDamage(damage);
         }
         Destroy(gameObject);
+        Debug.Log("Test");
     }
 }

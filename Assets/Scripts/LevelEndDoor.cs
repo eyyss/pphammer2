@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class LevelEndDoor : MonoBehaviour
 {
+    private Animator animator;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.TryGetComponent(out GameManager manager))
         {
+            animator.SetTrigger("Open");
             FindObjectOfType<LevelTimer>().SetTimerState(false);
             manager.OpenLevelEndScreen();
         }
@@ -16,5 +22,6 @@ public class LevelEndDoor : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;
+       
     }
 }

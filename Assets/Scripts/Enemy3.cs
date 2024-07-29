@@ -8,9 +8,11 @@ public class Enemy3 : MonoBehaviour
     public float damage = 1;
     public float fireRate = 1;
     private float fireTimer;
+    private SpriteRenderer renderer;
     public GameObject bulletPrefab;
     private void Start()
     {
+        renderer =GetComponent<SpriteRenderer>();
         fireTimer = fireRate;
     }
     private void Update()
@@ -27,7 +29,7 @@ public class Enemy3 : MonoBehaviour
                 {
                     fireTimer = 0;
                     var bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-                    bullet.GetComponent<Bullet>().Initialize(transform.right);
+                    bullet.GetComponent<Bullet>().Initialize(transform.right,renderer.color);
                 }
             }
         }

@@ -3002,7 +3002,7 @@ MonoBehaviour:
   climbSpeed: 2.5
   jumpPotionDuration: 10
   normalJumpHeight: 7
-  potionJumpHeight: 9
+  potionJumpHeight: 10.5
   isMove: 1
   isJump: 1
   isCrouching: 0
